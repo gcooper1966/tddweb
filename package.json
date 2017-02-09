@@ -1,0 +1,46 @@
+{
+  "name": "angular-tdd",
+  "version": "1.0.0",
+  "description": "Angular 2 testing setup using es6, babel, karma, and jasmine.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "karma start",
+    "build": "webpack -p"
+  },
+  "keywords": [
+    "tdd",
+    "javascript",
+    "es6",
+    "angular2",
+    "karma",
+    "jasmine"
+  ],
+  "author": "Graeme Cooper",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/common": "^2.4.6",
+    "@angular/compiler": "^2.4.6",
+    "@angular/core": "^2.4.6",
+    "@angular/platform-browser": "^2.4.6",
+    "@angular/platform-browser-dynamic": "^2.4.6",
+    "@angular/router": "^3.4.6",
+    "babel": "^6.5.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.8",
+    "babel-preset-angular2": "0.0.2",
+    "babel-preset-es2015": "^6.22.0",
+    "jasmine-core": "^2.5.2",
+    "jquery": "^3.1.1",
+    "karma": "^1.4.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-webpack": "^2.0.2",
+    "lodash": "^4.17.4",
+    "rxjs": "^5.1.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0",
+    "webpack-merge": "^2.6.1",
+    "zone.js": "^0.7.6"
+  }
+}

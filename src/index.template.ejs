@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">TDD Rocks</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">History<span class="sr-only">(current)</span></a></li>
+                    <li><a href="philosophy.html">Philosophy</a></li>
+                    <li><a href="process.html">Process</a></li>
+                    <li><a href="tips.html">Tips & Tricks</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row"><h1 class="text-primary">Welcome to TDD Rocks the World!</h1></div>
+        <div class="row"><p>Test Driven Development was originally introduced to the world by Ward Cunningham as a
+                way to make changes to an existing, complex, fixed securities product so that it could support
+                currencies other than the US dollar in 1991.
+                (XP). It was popularised by Kent Beck in 2002 in his book Test Driven Development: By Example and eagerly
+                adopted by eXtreme Programming (XP) teams from then on.</p>
+                <blockquote>
+                    <p>Early one Friday, the boss came to Ward Cunningham to introduce him to Peter, a prospective
+                        customer for WyCash, the bond portfolio management system the company was selling. Peter said,
+                        “I'm very impressed with the functionality I see. However, I notice you only handle U.S. dollar
+                        denominated bonds. I'm starting a new bond fund, and my strategy requires that I handle bonds in
+                        different currencies.” The boss turned to Ward, “Well, can we do it?”</p>
+                    <p>A quick experiment showed that it was possible to compute with a generic Currency object instead
+                        of a Dollar, and return a PolyCurrency when two unlike currencies were added together. The trick
+                        now was to make space for the new functionality without breaking anything that already worked.
+                        What would happen if Ward just ran the tests?</p>
+                    <p>After the addition of a few unimplemented operations to Currency, the bulk of the tests passed.
+                        By the end of the day, all of the tests were passing. Ward checked the code into the build and
+                        went to the boss. “We can do it,” he said confidently.</p>
+                </blockquote>
+            <div class="row"><strong>TDD is not a new concept</strong>, it is over 20 years old and in many development organisations it
+                is unacceptable to <em>NOT</em> do it!</div>
+        </div>
+
+    </div>
+
+</body>
+</html>

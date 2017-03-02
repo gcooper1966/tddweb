@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">TDD Rocks</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">History</a></li>
+                <li class="active"><a href="#">Philosophy<span class="sr-only">(current)</span></a></li>
+                <li><a href="process.html">Process</a></li>
+                <li><a href="tips.html">Tips & Tricks</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row"><h1 class="text-primary">The Philosophy</h1></div>
+    <div class="row">
+        <p>
+            Test Driven Development requires a change to a developer's mental model. In the beginning most people think
+            unit testing is an overhead that slows down "writing the code". They write tests in hindsight that prove
+            that their assumptions remain correct. When you do this, you're right, it does slow down the production of
+            code with not a lot of value to the product being built. Proving that what you assumed was correct after the
+            fact only helps prevent issues in the future arising from other people having different assumptions. TDD is
+            about helping prevent incorrect assumptions on the part of the original developer.
+        </p>
+        <h2 class="text-primary">The TDD Mindset</h2>
+        <p>Test Driven DDevelopment requires the developer to learn to accept the following:</p>
+        <ul>
+            <li>Failing tests are opportunities not penalties</li>
+            <li>A test should always fail initially</li>
+            <li>A test should pass as simply as possible</li>
+            <li>Refactoring, adding or removing code, is a sign of quality, not waste.</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
